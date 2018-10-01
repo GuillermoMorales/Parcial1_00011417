@@ -476,3 +476,18 @@ ul li:hover
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
+
+.comm
+{
+    text-align: left;
+    margin-left: 3%;
+}
+.arttt
+{
+    background-color: rgba(109, 104, 104, 0.801);
+    color: #FFF;
+}
+.arttt h3
+{
+    color: #fff;
+}
