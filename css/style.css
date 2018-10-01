@@ -198,7 +198,7 @@ img
 article p
 {
     color: rgba(255, 255, 255, 0.75);
-    font-size: 0.7em;
+    font-size: 1em;
     color: #000;
     margin: 0 auto 1.3em auto;
 }
@@ -214,8 +214,9 @@ article p
 article h3
 {
     color: #612E1D;
-    font-size: 1.1em;
-    margin: 0.2em 0 1em 0;   
+    font-size: 1.5em;
+    margin: 0.2em 0 1em 0.5em;  
+    text-align: left; 
 }
 
 article input
@@ -447,6 +448,31 @@ ul li:hover
 }
 .form2
 {
-    background-color: rgba(245, 245, 245, 0.335);
-    
+    background-color:rgba(109, 104, 104, 0.801);
+    color: #FFF;
+    height: 80%;
+    width: 80%;
+    border-radius: 8%;
+
+}
+.form2 h3
+{
+    color: #FFF;
+}
+
+.box2
+{
+    margin-left: auto;
+    margin-right: 20%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows:    100% 100%;
+    grid-template-columns: 50% 50%;
+    background-color: #F5F5F5;
+    color: black;
+    grid-gap: 35em;
+    padding: 2em 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
