@@ -132,10 +132,11 @@ ol,ul
 }
 #secondblock
 {
-    background-image: url("../img/concierto.jpg");
+    background-image: url("../img/contacus.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 @media screen and (max-width: 1280px) {
@@ -145,7 +146,21 @@ ol,ul
     }
 
 }
-
+.dos
+{
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows:    100% 100%;
+    grid-template-columns: 50% 50%;
+    background-color: #F5F5F5;
+    color: black;
+    grid-gap: 2em;
+    padding: 2em 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
 .box
 {
     display: grid;
