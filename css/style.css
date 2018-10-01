@@ -11,7 +11,7 @@ body
 {
     background: #202024;
     color: rgba(255, 255, 255, 0.75);
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: 'Raleway', sans-serif
 	font-size: 14pt;
 	font-weight: 300;
 	line-height: 1.65;
@@ -72,7 +72,7 @@ ol,ul
     color: #fff;
     font-size: 5em;
     font-weight: 400;
-    font-family: 'Passion One', cursive;
+    font-family: 'Monoton', cursive;
     margin: 0;
 }
 #firstblock p
@@ -430,4 +430,23 @@ ul li:hover
     position: relative;
     text-align: center;
     overflow: hidden;
+}
+
+.inside2
+{
+    display: flex;
+    flex: space-between;
+
+	
+	z-index: 1;
+}
+.form1
+{
+    margin-right: 0;
+    
+}
+.form2
+{
+    background-color: rgba(245, 245, 245, 0.335);
+    
 }
