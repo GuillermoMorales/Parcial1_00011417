@@ -411,3 +411,23 @@ ul li:hover
         grid-template-columns: 75%;
     }
 }
+
+
+#secondblock
+{
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;  
+    justify-content: center;
+    padding: 8em 4em 6em 4em;
+    min-height: 40vh;
+    background-image: url("../img/contacus.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 0;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
